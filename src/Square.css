@@ -1,0 +1,19 @@
+.Square {
+    display: block;
+    background-color: bisque;
+    height: 68px;
+    margin-right: -1px;
+    margin-top: -1px;
+    /* float: left; */
+    font-size: 96px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    line-height: 0px;
+    width: 68px;
+}
+
+.Square:hover {
+    background-color: rgb(242, 185, 116);
+}

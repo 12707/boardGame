@@ -1,0 +1,51 @@
+.game {
+    margin-top: 80px;
+    height: 200px;
+}
+
+.game-msg {
+    display: block;
+    font-size: 128px;
+    text-align: center;
+}
+
+.game-reset {
+    /* border-radius: 5%;
+    width: 50px;
+    height: 50px; */
+    cursor: pointer;
+    /* background-color: rgb(59, 221, 170) */
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 65px;
+}
+
+.blackStep {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    border: 1px solid yellow;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.blackStep:hover {
+    background-color: rgba(5, 4, 4, 0.559);
+}
+
+.whiteStep {
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.whiteStep:hover {
+    background-color: rgba(141, 133, 133, 0.156);
+}
